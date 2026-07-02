@@ -13,7 +13,3 @@ class GetRandomNumberTriviaUsecase extends UseCase<NumberTrivia, NoParams> {
     return await repository.getRandomNumberTrivia();
   }
 }
-
-class NoParams {
-  NoParams();
-}
